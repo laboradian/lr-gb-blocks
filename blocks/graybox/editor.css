@@ -1,0 +1,27 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-lr-blocks-graybox {
+	/*border: 1px dotted #f00;*/
+	padding:20px;
+	border:solid 1px #ccc;
+	background-color:#f3f3f3;
+	margin-bottom:20px;
+}
+@media only screen and (min-width: 600px) {
+	.wp-block-lr-blocks-graybox {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+}
+@media print, screen and (min-width: 960px) {
+	.wp-block-lr-blocks-graybox {
+		font-size: 15px;
+		line-height: 26px;
+		margin-bottom: 20px;
+	}
+}

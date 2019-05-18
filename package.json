@@ -1,0 +1,9 @@
+
+{
+  "name": "lr-gb-blocks",
+  "version": "0.1.0",
+  "main": "lr-gb-blocks.php",
+  "author": "Laboradian",
+  "devDependencies": {
+  }
+}
