@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Laboradian Gutenberg Blocks
  * Plugin URI:      PLUGIN SITE HERE
- * Description:     PLUGIN DESCRIPTION HERE
+ * Description:     Gutenberg のブロックを追加する WordPress プラグイン
  * Author:          Laboradian
  * Author URI:      laboradian.com
  * Text Domain:     lr-gb-blocks
