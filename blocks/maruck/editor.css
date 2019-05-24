@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/*チェックリスト*/
+.post .wp-block-lr-blocks-maruck {
+»-margin-bottom: 20px;
+}
+
+.post .wp-block-lr-blocks-maruck ul {-
+»-list-style-type: none;
+»-margin-left: 10px;
+»-padding:0 20px 0 30px;
+}
+
+.post .wp-block-lr-blocks-maruck ul li {
+»-padding:10px 0;
+»-margin-bottom:10px;
+»-line-height: 23px;
+}
+
+.post .wp-block-lr-blocks-maruck ul li:before {
+»-content: " \f00c";
+»-font-family: FontAwesome;
+»-border-radius: 50%;
+»--webkit-border-radius: 50%;
+»--moz-border-radius: 50%;
+»-display: inline-block;
+»-padding:0 6px;
+»-font-size:70%;
+»-margin-right:10px;
+»-background: #f3f3f3;
+»-color:#000;
+»-margin-left:-3em;
+}
+

@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-lr-blocks-inyoumodoki {
+»-background-color: #f3f3f3;
+»-background-image: url(images/quote.png);
+»-background-repeat: no-repeat;
+»-background-position: left top;
+»-padding-top: 50px;
+»-padding-right: 20px;
+»-padding-bottom: 20px;
+»-padding-left: 20px;
+»-margin-top: 20px;
+»-margin-right: 0px;
+»-margin-bottom: 20px;
+»-border-left-width: 1px;
+»-border-left-style: solid;
+»-border-left-color: #CCC;
+}
+
+.post .inyoumodoki p:last-child,
+.post .inyoumodoki ol:last-child,
+.post .inyoumodoki ul:last-child {
+»-margin-bottom:0;
+»-padding-bottom:0;
+}
+

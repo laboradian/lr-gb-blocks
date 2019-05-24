@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/*スクロール*/
+.post .wp-block-lr-blocks-scroll-box table {
+»-max-width:initial;
+}
+
+.wp-block-lr-blocks-scroll-box {
+»-overflow-x: auto;
+»-margin-bottom:10px;
+}
+.wp-block-lr-blocks-scroll-box::-webkit-scrollbar {
+»-height: 5px;
+}
+
+.wp-block-lr-blocks-scroll-box::-webkit-scrollbar-track {
+»-border-radius: 5px;
+»--webkit-border-radius: 5px;-
+»--moz-border-radius: 5px;
+»-background: #f3f3f3;
+}
+.wp-block-lr-blocks-scroll-box::-webkit-scrollbar-thumb {
+»-border-radius: 5px;
+»--webkit-border-radius: 5px;
+»--moz-border-radius: 5px;
+»-background: #ccc;
+}
+

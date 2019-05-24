@@ -13,4 +13,11 @@
  */
 
 require_once __DIR__ . '/blocks/graybox.php';
+require_once __DIR__ . '/blocks/redbox.php';
+require_once __DIR__ . '/blocks/yellowbox.php';
+require_once __DIR__ . '/blocks/maruno.php';
+require_once __DIR__ . '/blocks/maruck.php';
+require_once __DIR__ . '/blocks/scroll-box.php';
+require_once __DIR__ . '/blocks/notab.php';
+require_once __DIR__ . '/blocks/inyoumodoki.php';
 

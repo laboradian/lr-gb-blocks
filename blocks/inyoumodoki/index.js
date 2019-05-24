@@ -19,12 +19,12 @@
 	 * Every block starts by registering a new block type definition.
 	 * @see https://wordpress.org/gutenberg/handbook/designers-developers/developers/block-api/#registering-a-block
 	 */
-	registerBlockType( 'lr-blocks/graybox', {
+	registerBlockType( 'lr-blocks/inyoumodoki', {
 		/**
 		 * This is the display title for your block, which can be translated with `i18n` functions.
 		 * The block inserter will show this name.
 		 */
-		title: __( 'GrayBox', 'lr-blocks' ),
+		title: __( '引用風', 'lr-blocks' ),
 
 		/**
 		 * Blocks are grouped into categories to help users browse and discover them.
@@ -53,8 +53,8 @@
       var elTmp = el(
 				'div',
 				{ className: props.className },
-				//{ className: `${props.className} graybox` },
-				__( 'Hello from the editor!', 'lr-blocks' )
+				//{ className: `${props.className} inyoumodoki` },
+				__( 'ここにコンテンツを書いてください', 'lr-blocks' )
 			);
       return elTmp;
 		},
@@ -71,9 +71,9 @@
 				//'p',
 				'div',
 				//{},
-				//{ className: 'graybox' },
-				{ className: 'graybox' },
-				__( 'Hello from the saved content!', 'lr-blocks' )
+				//{ className: 'inyoumodoki' },
+				{ className: 'inyoumodoki' },
+				__( 'ここにコンテンツを書いてください', 'lr-blocks' )
 			);
       return elTmp;
 		}

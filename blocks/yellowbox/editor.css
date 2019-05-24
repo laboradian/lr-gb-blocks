@@ -1,0 +1,28 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-lr-blocks-yellowbox {
+	/*border: 1px dotted #f00;*/
+	padding:20px;
+	/*border:solid 1px #fffacd;*/
+	border:solid 1px #ff3;
+	background-color:#ffffe0;
+	margin-bottom:20px;
+}
+@media only screen and (min-width: 600px) {
+	.wp-block-lr-blocks-yellowbox {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+}
+@media print, screen and (min-width: 960px) {
+	.wp-block-lr-blocks-yellowbox {
+		font-size: 15px;
+		line-height: 26px;
+		margin-bottom: 20px;
+	}
+}

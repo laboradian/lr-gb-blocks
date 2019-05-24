@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/*テーブル（装飾なし） */
+.post .wp-block-lr-blocks-notab table {
+»-border:none;
+»-width: initial; /* 初期状態にリセット */
+»-max-width: initial; /* 初期状態にリセット */
+}
+
+.wp-block-lr-blocks-notab table tr td {
+»-border:none;
+»-text-align: left;
+»-vertical-align: top;
+}
+
+.notab table th {
+»-border:none;
+}
+
